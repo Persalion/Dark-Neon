@@ -1,0 +1,783 @@
+html {
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 50%, rgba(255, 20, 147, 0.28), transparent 55%),
+    radial-gradient(ellipse 160% 130% at 10% 10%, rgba(0, 255, 255, 0.25), transparent 65%),
+    radial-gradient(ellipse 160% 130% at 90% 90%, rgba(138, 43, 226, 0.32), transparent 70%),
+    radial-gradient(ellipse 110% 50% at 80% 30%, rgba(255, 215, 0, 0.18), transparent 45%),
+    #000000 !important;
+}
+
+
+.bg-bga-whitebg {
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255, 80, 120, 0.25), transparent 70%), #000000 !important;
+    border: 3px solid #c0a4d070 !important;
+}
+
+@media (min-width: 900px) {
+    .bga-menu-bar.svelte-1edikia.svelte-1edikia {
+        background: linear-gradient(to bottom, #34075d, #01060f) !important;
+    }
+}
+
+.bga-link {
+    color: #ebc134;
+    transition: color .5s 
+ease-in-out;
+}
+
+.bga-menu-bar-items__menu-item.svelte-1duixkh.svelte-1duixkh:hover {
+    color: #f65a3f !important;
+    transition: 0.1s 
+ease;
+}
+.bga-button--gray.svelte-3ldxxg.svelte-3ldxxg {
+    background: linear-gradient(180deg, rgb(249 203 75) 0%, rgb(175 84 11) 100%) no-repeat border-box, linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(222, 222, 222) 100%) no-repeat border-box !important;
+    color: rgb(40 18 159) !important;
+}
+
+.bga-lobby-table-item.svelte-1k2q1vg.svelte-1k2q1vg {
+    background: linear-gradient(to top, #12032b 0%, #35042a 100%) !important;
+}
+
+.bga-game-panel-medias-box__icon.svelte-hc6gll {
+    background-image: linear-gradient(to right, #360537, #41073b, #4d0a3e, #580e41, #641244) !important;
+}
+.pagesection__content, .portlet__content, .tips__content {
+background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255, 80, 120, 0.25), transparent 70%), #000000 !important;
+    border: 3px solid #c0a4d070 !important;
+color:white;
+}
+
+.pageheader {
+background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255, 80, 120, 0.25), transparent 70%), #000000 !important;
+    border: 3px solid #c0a4d070 !important;
+color:white;
+}
+
+.pagesection__title, .portle__title, .portlet__title {
+    color: #aef2f4;
+    text-shadow: 2px 0 5px #064750;
+}
+
+.text-bga-gray-78 {
+    color: #4ff1ff;
+    text-shadow: 2px 0 5px #064750;
+}
+
+.bga-news-item__news-text.overflow-hidden.text-bga-gray-78.svelte-lurk2c {
+    background: #040843 !important;
+    font-size: 0.8rem !important;
+}
+
+.bga-omni-bar-panel-players__list.svelte-11apq7r>.svelte-11apq7r {
+    background-image: linear-gradient(to bottom, #360537, #41073b, #4d0a3e, #580e41, #641244) !important;
+    border: 1px solid #ff008a !important;
+}
+
+.pageheader_menuitem {
+    color: #d9b8cb;
+}
+
+.notouch-device .pageheader_menuitem:hover {
+    color: #dc84cc;
+}
+
+.pageheader_menuitembar {
+    background-color: #bb11b8;
+}
+
+.pageheader_menuitemselected {
+    color: #f88af6 !important;
+}
+
+.row-data .row-label {
+    color: #e5d3f3;
+}
+
+textarea, .board_fake_input, input:not(.dijitArrowButtonInner), input.dijitInputInner {
+    background: #282a36 !important;
+    background-color: #282a36 !important;
+    border: solid 1px #2993a0 !important;
+    color: #f8f8f2 !important;
+    box-shadow: 0 0 4px #16779c !important;
+    padding: 5px;
+    padding-left: 10px !important;
+}
+
+select {
+    background: #282a36 !important;
+    background-color: #282a36 !important;
+    border: solid 1px #2993a0 !important;
+    color: #f8f8f2 !important;
+    box-shadow: 0 0 4px #16779c !important;
+
+    padding: 5px 35px 5px 10px !important; /* miejsce na strzałkę */
+
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23f8f8f2' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 10px center !important;
+    background-size: 16px !important;
+}
+
+/* Cała tabela jako dark premium select */
+table.dijitSelect {
+    background: #282a36 !important;
+    border: 1px solid #2993a0 !important;
+    border-radius: 14px !important;
+    box-shadow: 0 0 4px #16779c !important;
+    position: relative !important;
+}
+
+/* Komórka z tekstem wybranej wartości */
+table.dijitSelect .dijitButtonContents {
+    background: transparent !important;
+    color: #f8f8f2 !important;
+    padding: 5px 40px 5px 10px !important;
+    border: 0px;
+}
+
+/* Ukrywamy wbudowany input strzałki */
+table.dijitSelect .dijitArrowButtonInner {
+    display: none !important;
+}
+
+/* Dodajemy własną strzałkę jako pseudo-element */
+table.dijitSelect::after {
+    content: '▼' !important;
+    position: absolute !important;
+    right: 12px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    color: #f8f8f2 !important;
+    pointer-events: none !important;
+    font-size: 0.85em !important;
+}
+
+/* Hover / focus */
+table.dijitSelect:hover,
+table.dijitSelect:focus-within {
+    border-color: #40c9ff !important;
+    box-shadow: 0 0 8px #1fb6ff !important;
+}
+
+/* Dropdown menu */
+.dijitSelectMenu {
+    background: #282a36 !important;
+    color: #f8f8f2 !important;
+    border: 1px solid #2993a0 !important;
+    box-shadow: 0 0 10px #16779c !important;
+}
+
+/* Opcje w menu */
+.dijitSelectMenu .dijitMenuItem {
+    background: transparent !important;
+    color: #f8f8f2 !important;
+}
+
+/* Hover na opcjach */
+.dijitSelectMenu .dijitMenuItem:hover {
+    background: rgba(0, 240, 255, 0.15) !important;
+    color: #f8f8f2 !important;
+}
+
+td.dijitReset.dijitRight.dijitButtonNode.dijitArrowButton.dijitDownArrowButton.dijitArrowButtonContainer {
+    display: none;
+}
+
+/* Kontener checkbox / radio */
+input[type="checkbox"],
+input[type="radio"] {
+    /* Zachowujemy rozmiar i padding z reszty */
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0 5px 0 0 !important;
+
+    /* Ukrywamy natywny */
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+
+    background: #282a36 !important;
+    border: 1px solid #2993a0 !important;
+    border-radius: 4px !important; /* radio będzie potem zaokrąglone */
+    box-shadow: 0 0 4px #16779c !important;
+    cursor: pointer !important;
+    position: relative !important;
+    vertical-align: middle !important;
+    transition: all 0.25s ease !important;
+}
+
+/* Radio jest okrągłe */
+input[type="radio"] {
+    border-radius: 50% !important;
+}
+
+/* Stan checked */
+input[type="checkbox"]:checked::before,
+input[type="radio"]:checked::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+/* Wypełnienie checked */
+input[type="checkbox"]:checked::before {
+    width: 12px !important;
+    height: 12px !important;
+    background: #2993a0 !important;
+    border-radius: 2px !important;
+}
+
+input[type="radio"]:checked::before {
+    width: 12px !important;
+    height: 12px !important;
+    background: #2993a0 !important;
+    border-radius: 50% !important;
+}
+
+/* Hover efekt */
+input[type="checkbox"]:hover,
+input[type="radio"]:hover {
+    border-color: #40c9ff !important;
+    box-shadow: 0 0 6px #1fb6ff !important;
+}
+
+.gamename {
+    color: #ffd171;
+    font-weight: 500;
+    text-shadow: 1px 1px black;
+}
+
+.gamename:active, .gamename:hover {
+    color: #bcf528;
+    text-decoration: none;
+    text-shadow: 0 2px 5px #69ae43;
+}
+
+.text-bga-gray-171 {
+    --tw-text-opacity: 1;
+    color: rgb(234 232 232);
+    text-shadow: 1px 1px 2px black;
+}
+
+.bg-bga-gray-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(8 11 25);
+}
+
+.bga-homepage-achievements__label.svelte-117xadk.svelte-117xadk.svelte-117xadk {
+    color: rgb(237 211 122) !important;
+}
+
+.text-bga-link {
+    color: rgb(237 211 122);
+}
+
+.even\:bg-bga-gray-233:nth-child(2n) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / 16%);
+}
+
+.bga-ranked-player-list__entry--of-user.svelte-72v7h1 {
+    background-image: linear-gradient(
+        to bottom, 
+        #b28900, /* ciemniejsze złoto u góry */
+        #8a4b00  /* głęboka miedź / pomarańcz na dole */
+    ) !important;
+
+    /* usuń Tailwindowe zmienne, jeśli nie są potrzebne */
+    --tw-gradient-from: #b28900 !important;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, #8a4b00) !important;
+    --tw-gradient-to: #8a4b00 !important;
+
+    /* dla pewności: popraw kontrast tekstu */
+    color: #f8e473 !important; /* jasny złoty tekst, dobrze widoczny na ciemniejszym gradientzie */
+}
+
+.truncate {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.board_readonly .post {
+    background-color: #ffffff21;
+}
+
+.notouch-device .bga-hover-for-list:hover {
+    background: linear-gradient(180deg, #fff7f72b 20%, #d8d8d83b 80%);
+}
+
+.bg-bga-gray-233 {
+    background: linear-gradient(180deg, #fff7f72b 20%, #d8d8d83b 80%);
+}
+
+select[id^="favoriteColor_"] {
+text-shadow:none !important;
+}
+
+.bgabutton_blue {
+    background: linear-gradient(180deg, #7b3fe4, #3a0ca3) !important; /* ciemny -> głęboki fiolet */
+    border-radius: 12px !important;
+    border: 2px solid #9d4edd !important; /* subtelny neon/fiolet border */
+    color: #f8f8f2 !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.03em !important;
+    box-shadow: 0 6px 15px rgba(123, 63, 228, 0.4) !important; /* fioletowy glow */
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Hover – premium glow / lift */
+.bgabutton_blue:hover {
+    background: linear-gradient(180deg, #9d4edd, #5f0f40) !important; /* lekko jaśniejszy fiolet */
+    border-color: #c77dff !important; /* efekt neonowego obramowania */
+    box-shadow: 0 10px 25px rgba(157, 78, 221, 0.6) !important;
+    transform: translateY(-2px) !important;
+}
+
+.bgabutton_gray {
+    background: linear-gradient(180deg, #6c757d, #343a40) !important; /* jasny -> ciemny grafit */
+    border-radius: 12px !important;
+    border: 2px solid #868e96 !important; /* chłodny szary border */
+    color: #f1f3f5 !important; /* jasny tekst */
+    font-weight: 600 !important;
+    letter-spacing: 0.03em !important;
+    box-shadow: 0 6px 15px rgba(108, 117, 125, 0.35) !important; /* subtelny szary glow */
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+}
+
+.flex-1.flex.flex-col.h-0.rounded-md.-mt-1\.5.z-0.relative {
+    background: linear-gradient(0deg, rgb(3 29 51) 0%, rgb(65 9 9) 50%) !important;
+}
+
+/* Hover – chłodny lift + jaśniejszy gradient */
+.bgabutton_gray:hover {
+    background: linear-gradient(180deg, #868e96, #495057) !important;
+    border-color: #adb5bd !important;
+    box-shadow: 0 10px 25px rgba(134, 142, 150, 0.55) !important;
+    transform: translateY(-2px) !important;
+}
+
+
+.bg-bga-gray-204 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(28 26 26);
+}
+
+.pageheader_menu_verylarge .pageheader_big_switch {
+    background-color: #78147a52;
+    border-left: 2px solid #5c025878;
+    border-top: 1px solid #a333a478;
+    -o-box-shadow: 3px 5px 5px 0 #0006;
+    box-shadow: 3px 5px 5px 0 #0006;
+    box-sizing: border-box;
+    color: #cf9df9;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565,Direction=0,Strength=15);
+    font-weight: 700;
+    opacity: 1;
+    width: 100%;
+    border-bottom: 1px solid #3a0a2f;
+    text-shadow: 1px 1px 1px #311c44;
+}
+
+.notouch-device .pageheader_menu_verylarge .pageheader_big_switch:hover, .pageheader_menu_verylarge .dropdown_expanded .pageheader_big_switch {
+    background-color: #1f0c7b42;
+}
+
+.switcher_zone {
+    background: linear-gradient(#400226, #6f1c8a);
+    border-left: 1px solid #6b0b0b;
+    color: #fff;
+    font-size: 200%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 24px;
+}
+
+.notouch-device .pageheader_menu_verylarge .pageheader_big_switch:hover #switcher_zone, .pageheader_menu_verylarge .dropdown_expanded .pageheader_big_switch #switcher_zone {
+    background: linear-gradient(#400226, #6f1c8a);
+}
+
+.pageheader_menu_verylarge .pageheader_big_switch_dropdown .pageheader_menuitem.pageheader_menuitemselected {
+    background: radial-gradient(70% 55% at 50% 50%, #2a5d77 0%, #184058 18%, #0f2a43 34%, #0a1b30 50%, #071226 66%, #040d1c 80%, #020814 92%, #01040d 97%, #000309 100%), radial-gradient(160% 130% at 10% 10%, rgba(0, 0, 0, 0) 38%, #000309 76%, #000208 100%), radial-gradient(160% 130% at 90% 90%, rgba(0, 0, 0, 0) 38%, #000309 76%, #000208 100%);
+    color: #c2daf3 !important;
+    text-shadow: 1px 1px 2px black;
+}
+
+.pageheader_menu_verylarge .pageheader_big_switch_dropdown .pageheader_menuitem {
+    background: radial-gradient(70% 55% at 50% 50%, #2a5d77 0%, #184058 18%, #0f2a43 34%, #0a1b30 50%, #071226 66%, #040d1c 80%, #020814 92%, #01040d 97%, #000309 100%), radial-gradient(160% 130% at 10% 10%, rgba(0,0,0,0) 38%, #000309 76%, #000208 100%), radial-gradient(160% 130% at 90% 90%, rgba(0,0,0,0) 38%, #000309 76%, #000208 100%);
+    color: #7dbbcc;
+    text-shadow: 1px 1px 2px black;
+}
+
+div#pageheader_lobbymenunav_gamemode {
+    background: none;
+}
+
+.pageheader_mobile_switcher_wrap .pageheader_big_switch_icon .fa-coffee {
+    color: #c1e2ff;
+    font-size: 78px;
+    left: 8px;
+    position: relative;
+    top: 8px;
+}
+
+.tabbed_slider_bar_barcenter {
+    background-color: #3f0236;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0 10px 5px;
+    position: relative;
+}
+
+.tabbed_slider_bar_left, .tabbed_slider_bar_right {
+    border-top: 28px solid #3f0236;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+.bga-link--active, .bga-link-inside a:not(.playername,.gamename,.bgabutton):active, .bga-link-inside a:not(.playername,.gamename,.bgabutton):hover, .bga-link:active, .bga-link:hover {
+    color: #ec7c3e;
+    text-decoration: none;
+}
+
+.grid.svelte-1utb1ny>div.svelte-1utb1ny:nth-child(6n), .grid.svelte-1utb1ny>div.svelte-1utb1ny:nth-child(6n-1), .grid.svelte-1utb1ny>div.svelte-1utb1ny:nth-child(6n-2) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / 10%) !important;
+}
+
+.bga-player-menu__tab.svelte-1ri87l2.svelte-1ri87l2:hover, .bga-player-menu__tab--active.svelte-1ri87l2.svelte-1ri87l2 {
+    --tw-text-opacity: 1;
+    color: rgb(220 23 135) !important;
+}
+
+.bga-player-menu__tab.svelte-1ri87l2.svelte-1ri87l2 {
+    --tw-text-opacity: 1;
+    color: rgb(236 186 243) !important;
+    cursor: pointer;
+}
+
+.bg-bga-link-active {
+    --tw-bg-opacity: 1;
+    background-color: rgb(180 25 105);
+    box-shadow: 0 0 10px red;
+}
+
+.notification-content.svelte-g5syg4.svelte-g5syg4 {
+    margin-left: 68px;
+    padding-right: 8px;
+    color: white;
+}
+
+.bga-link-inside a:not(.playername,.gamename,.bgabutton) {
+    color: #dbc262;
+}
+
+.game_box_wrap, .tiny_verycompactlobby .game_box_wrap.expandedgame_box_wrap {
+    border: 2px solid #911f4d69;
+}
+
+#headlines-module #follow_us_portlet a span, #news-module #follow_us_portlet a span {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.icon32_x_black {
+    background-color: #f9f4f4;
+}
+
+.bg-bga-gray-211 {
+    --tw-bg-opacity: 1;
+    background-image: linear-gradient(to top, #1c0125 0%, #1e0a44 100%) !important;
+}
+
+.text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgb(245 58 186);
+    text-shadow: 1px 1px 2px black;
+}
+.bga-checkbox.svelte-po3py1:not(.bga-checkbox--disabled):hover .bga-checkbox__checkbox.svelte-po3py1 {
+    background-color: #e2a7f280 !important;
+}
+
+.bga-game-browser__panel.svelte-x617ll.svelte-x617ll {
+    background: linear-gradient(180deg, rgb(0 0 0 / 39%) 0%, rgb(48 2 65 / 53%) 100%) !important;
+}
+
+.from-bga-gray-100 {
+    --tw-gradient-from: #7b1374;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,#ddd0);
+}
+
+.bga-dropdown-option.svelte-szfc5g.svelte-szfc5g {
+    border-bottom: 2px solid #4a3682 !important;
+}
+
+.wannaplay_games_list {
+    margin-right: -30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.zoom.svelte-ssour0.svelte-ssour0 {
+    opacity: 0;
+    transform: scale(0.9);
+    background: none !important;
+    border: 2px solid #373498 !important;
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 21px 10px;
+    cursor: pointer;
+    transition: opacity 0.15s ease-in,
+            transform 0.15s ease-in;
+}
+
+.text-bga-blue {
+    --tw-text-opacity: 1;
+    color: rgb(249 204 255) !important;
+}
+
+.text-bga-blue:hover {
+    --tw-text-opacity: 1;
+    color: rgb(140 122 252) !important;
+}
+
+
+.bga-dropdown__options-mobile-header.svelte-n2kuh {
+    background: rgb(121 12 181) !important;
+    background: linear-gradient(180deg, rgb(167 12 181) 0%, rgb(136 34 64) 100%) !important;
+    color: #e3b4ff !important;
+}
+
+/* Złożoność (inline style: rgb(136, 0, 0)) */
+.bga-page-section__stat-bar.svelte-i1k73e[style*="rgb(136, 0, 0)"] {
+    background: linear-gradient(90deg, #ff4d4d, #ff8080) !important;
+}
+
+/* Strategia (inline style: rgb(0, 0, 136)) */
+.bga-page-section__stat-bar.svelte-i1k73e[style*="rgb(0, 0, 136)"] {
+    background: linear-gradient(90deg, #3399ff, #80ccff) !important;
+}
+
+/* Losowość (inline style: rgb(0, 0, 0)) */
+.bga-page-section__stat-bar.svelte-i1k73e[style*="rgb(0, 0, 0)"] {
+    background: linear-gradient(90deg, #ffcc33, #ffff66) !important;
+}
+
+/* Interakcja (inline style: rgb(0, 136, 0)) */
+.bga-page-section__stat-bar.svelte-i1k73e[style*="rgb(0, 136, 0)"] {
+    background: linear-gradient(90deg, #33cc33, #99ff99) !important;
+}
+
+
+
+.bga-homepage-games-recommandations__menu-item.bga-homepage-games-recommandations__menu-item--highlighted.svelte-n13xz2 {
+    color: rgb(180 127 246) !important;
+}
+
+.chatwindowexpanded {
+    background-color: #09012e !important;
+}
+
+.chatwindowlogs {
+    background-color: #09012e !important;
+}
+
+.chatwindowlogs_zone .roundedbox.chatlog .roundedboxinner {
+    background-color: #69214a !important;
+    color: white !important;
+}
+
+.chatwindowcollapsedtitle {
+    color: #ebc726 !important;
+}
+
+.chatwindowcollapsed {
+    background: linear-gradient(to bottom, #34075d, #01060f) !important;
+}
+
+.controlpanelmenu .panelmenuicon {
+    color: #88133f;
+}
+
+.controlpanelmenu .subtitle {
+    color: #debebe;
+}
+
+.bga-dropdown-button-value.svelte-szfc5g.svelte-szfc5g {
+    background: linear-gradient(#530958, rgb(19 6 21)) !important;
+}
+
+.bga-dropdown-button.svelte-szfc5g .bga-dropdown-button-split.svelte-szfc5g {
+    background: linear-gradient(#b50b69, #7e1a26) !important;
+}
+
+.bga-page-section__content.bga-page-section__content--nopadding{
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255, 80, 120, 0.25), transparent 70%), #000000 !important;
+    border: 3px solid #c0a4d070 !important;
+    color: white;
+}
+
+.panel-block--buttons__play-wrapper.svelte-g0rhr9.panel-block--buttons__play-wrapper--glow {
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255, 80, 120, 0.25), transparent 70%), #000000 !important;
+    border: 3px solid #c0a4d070 !important;
+    color: white;
+    border-bottom: 0px !important;
+}
+
+.bga-button--blue.svelte-3ldxxg.svelte-3ldxxg {
+    background: linear-gradient(180deg, rgb(11 181 75) 0%, rgb(102 155 19) 100%) no-repeat border-box, linear-gradient(180deg, rgb(128, 154, 192) 0%, rgb(91, 96, 149) 100%) no-repeat border-box !important;
+}
+
+.bga-button--blue.svelte-3ldxxg.svelte-3ldxxg:hover {
+    background: linear-gradient(180deg, rgb(204 234 6) 0%, rgb(78 135 36) 100%) no-repeat border-box, linear-gradient(180deg, rgb(128, 154, 192) 0%, rgb(91, 96, 149) 100%) no-repeat border-box !important;
+}
+
+.hover\:bg-bga-gray-211:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(238 76 76 / 22%);
+}
+
+.bga-game-option-item-bool.svelte-wh0a1e {
+    background-image: linear-gradient(0deg, #381f4c 0%, #0a2758 30%, #0e3e45 100%) !important;
+}
+
+.bga-game-option-item-choice__selector.svelte-njrd5p {
+    background-image: linear-gradient(0deg, #381f4c 0%, #0a2758 30%, #0e3e45 100%) !important;
+}
+
+.bga-game-option-item-choice__selector.svelte-njrd5p:not(:disabled) {
+    background-image: linear-gradient(0deg, #381f4c 0%, #0a2758 30%, #0e3e45 100%) !important;
+}
+
+.bga-game-option-messages__option-description.svelte-13ocvdr {
+    background: linear-gradient(180deg, rgb(49 54 139) 0px, rgb(15 4 62) 15px) !important;
+}
+
+.bga-game-option-item-choice__selector.svelte-njrd5p:not(:disabled):hover {
+    background-image: linear-gradient(0deg, #0e3e45 0%, #0a2758 30%, #381f4c 100%) !important;
+}
+
+.bg-bga-gray-244 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(138 100 27 / 33%) !important;
+}
+
+.hover\:bg-bga-gray-233:hover {
+    background-color: rgb(45 138 13 / 37%) !important;
+}
+
+.bga-toggle.svelte-116k02m.svelte-116k02m {
+    background: #483b58 !important;
+}
+
+.bga-toggle__slider.svelte-116k02m.svelte-116k02m {
+    background: linear-gradient(180deg, hsl(314.31deg 14.15% 49.67%) 00%, hsl(298.17deg 24.67% 42.32%) 40%, hsl(274.69deg 33.72% 66.14%) 60%, hsl(303.23deg 17.47% 43.57%) 100%) !important;
+}
+
+.bga-toggle.svelte-116k02m .bga-toggle__slider.svelte-116k02m {
+    color: #110101 !important;
+}
+
+.bga-toggle--on.svelte-116k02m .bga-toggle__slider.svelte-116k02m {
+    color: #ffffff !important;
+}
+
+.bga-game-panel__quick-play-draw-wrapper.svelte-r3yse2 {
+    background-image: linear-gradient(to bottom, #000000b3, #37053ac2, #00000085) !important;
+}
+
+.bga-game-panel--status-tournaments.svelte-r3yse2 .bga-game-panel__content-divider-background.svelte-r3yse2, .bga-game-panel--status-quick-play.svelte-r3yse2 .bga-game-panel__content-divider-background.svelte-r3yse2, .bga-game-panel--status-arena.svelte-r3yse2 .bga-game-panel__content-divider-background.svelte-r3yse2 {
+    background: linear-gradient(rgb(60 6 80 / 76%), rgb(255 255 255 / 0%) 300px) !important;
+}
+
+.bga-dropdown-button.svelte-szfc5g.svelte-szfc5g {
+    color: rgb(231 181 181) !important;
+}
+
+.bga-page-section>.bga-page-section__title {
+    color: #f5a2cf !important;
+}
+
+.bga-page-section .bga-page-section__content {
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255, 80, 120, 0.25), transparent 70%), #000000 !important;
+    border: 3px solid #c0a4d070 !important;
+    color: white;
+}
+
+.even\:bg-bga-gray-211:nth-child(2n) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 254 254 / 17%) !important;
+}
+
+.text-gray-500 {
+    color: rgb(212 216 224) !important;
+}
+
+.bga-page-section__stat-bar[style*="background-color: rgb(0, 0, 0)"] {
+    background-color: rgb(197, 195, 195) !important;
+}
+
+.bga-menu-bar.svelte-1edikia.svelte-1edikia {
+    background: linear-gradient(to bottom, #34075d, #01060f) !important;
+}
+
+.bga-menu-subbar.svelte-1edikia.svelte-1edikia {
+    background: linear-gradient(to bottom, #01060f, #34075d) !important;
+border-top: 1px solid #401f66;
+}
+
+.bga-mobile-sub-bar.svelte-z10lkn {
+    color: #e4be3f !important;
+}
+
+.bga-vertical.svelte-1duixkh .bga-menu-bar-items__menu-item.svelte-1duixkh {
+    background-color: #ffffff14 !important;
+    box-shadow: 0 0 2px 0 rgb(13 0 28 / 80%) !important;
+}
+
+.bg-gray-200 {
+    background-color: rgb(37 2 50) !important;
+}
+
+.bg-white {
+    background-color: rgb(29 7 43) !important;
+}
+
+.bga-popup-modal__header.svelte-cezjod.svelte-cezjod {
+    background: linear-gradient(180deg, rgb(96 37 130) 0%, rgb(111 29 132) 100%) !important;
+}
+
+div.font-bold.mb-4 > span {
+color:#bad0f2;
+}
+
+.bga-link {
+    color: #ebc134 !important;
+}
+
+div.font-bold.mb-2 > span {
+color:#bad0f2;
+}
+
+.bga-lobby-table-item__bg.absolute.svelte-1k2q1vg{
+background: linear-gradient(to bottom, #031647 0%, #270303 89%, #2f0303 100%) !important;
+}
+
+#ingame_menu_content .row-data .row-label {
+    color: #000000;
