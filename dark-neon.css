@@ -19,12 +19,6 @@ html {
     }
 }
 
-.bga-link {
-    color: #ebc134;
-    transition: color .5s 
-ease-in-out;
-}
-
 .bga-menu-bar-items__menu-item.svelte-1duixkh.svelte-1duixkh:hover {
     color: #f65a3f !important;
     transition: 0.1s 
@@ -57,6 +51,7 @@ color:white;
 .pagesection__title, .portle__title, .portlet__title {
     color: #aef2f4;
     text-shadow: 2px 0 5px #064750;
+    margin-left: 15px !important;
 }
 
 .text-bga-gray-78 {
@@ -642,6 +637,7 @@ div#pageheader_lobbymenunav_gamemode {
 
 .bga-button--blue.svelte-3ldxxg.svelte-3ldxxg {
     background: linear-gradient(180deg, rgb(11 181 75) 0%, rgb(102 155 19) 100%) no-repeat border-box, linear-gradient(180deg, rgb(128, 154, 192) 0%, rgb(91, 96, 149) 100%) no-repeat border-box !important;
+    box-shadow: 0 0px 10px rgb(175 245 116), inset 0 0px 5px rgb(79 221 20) !important;
 }
 
 .bga-button--blue.svelte-3ldxxg.svelte-3ldxxg:hover {
@@ -767,9 +763,6 @@ div.font-bold.mb-4 > span {
 color:#bad0f2;
 }
 
-.bga-link {
-    color: #ebc134 !important;
-}
 
 div.font-bold.mb-2 > span {
 color:#bad0f2;
@@ -781,3 +774,343 @@ background: linear-gradient(to bottom, #031647 0%, #270303 89%, #2f0303 100%) !i
 
 #ingame_menu_content .row-data .row-label {
     color: #000000;
+}
+
+.bga-button--teal {
+    box-shadow: 0 0px 10px rgb(167 255 253), inset 0 0px 5px rgb(168 235 255) !important;
+}
+
+.bga-button--purple {
+    box-shadow: 0 0px 10px rgb(250 133 198), inset 0 0px 5px rgb(235 193 217) !important;
+}
+
+.bga-link {
+    color: #ebc134;
+    transition: color .5s 
+ease-in-out;
+}
+
+.bga-link:hover {
+    color: #ec7e09  !important;
+}
+
+.wannaplay_mask_button.how_to_play_button {
+    font-size: 25px;
+    background-image: linear-gradient(to right top, #007d72, #03897d, #069589, #0aa195, #0eada1, #0fada1, #0fada1, #10ada1, #0da195, #0a9588, #06897d, #037e71) !important;
+    border: 1px solid #6de2de !important;
+}
+
+.wannaplay_mask_button.wannaplayauto_pref {
+    background-image: linear-gradient(to right bottom, #202423, #313635, #434948, #565d5c, #6a7171, #6a7171, #697171, #697171, #555c5c, #424747, #303333, #1f2121) !important;
+    border: 1px solid #9f9a9a !important;
+}
+
+.wannaplay_mask_button.add_favorite {
+    background-image: linear-gradient(to right bottom, #f1db31, #efc927, #ebb621, #e6a51d, #df931c, #e0941e, #e19421, #e29523, #eba82a, #f3bb33, #f9cf3d, #ffe34a) !important;
+    border: 1px solid gold;
+}
+
+.gamerank_apprentice, .gamerank_beginner {
+    position: relative !important;
+    background: linear-gradient(145deg, #1d8aa4 0%, #209dbe 45%, #4a98ab 100%) !important;
+    border: 1px solid #3e8596 !important;
+    box-shadow: inset 0 2px 4px rgb(236 206 206 / 60%), inset 0 -4px 8px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.35) !important;
+}
+
+.gamerank_average {
+    position: relative !important;
+    background: linear-gradient(145deg, #6d7fe7 0%, #a091f7 45%, #a192f5 100%) !important;
+    border: 1px solid #684fa1 !important;
+    box-shadow: inset 0 2px 4px rgb(217 187 249 / 60%), inset 0 -4px 8px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.35) !important;
+}
+
+.gamerank_good {
+    position: relative !important;
+    background: linear-gradient(145deg, #4dab80 0%, #76c075 45%, #2c9b7e 100%) !important;
+    border: 1px solid #80cf76 !important;
+    box-shadow: inset 0 2px 4px rgb(167 239 177 / 60%), inset 0 -4px 8px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.35) !important;
+}
+
+.gamerank_strong {
+    position: relative !important;
+    background: linear-gradient(145deg, #2d2f53 0%, #848aa3 45%, #2f3451 100%) !important;
+    border: 1px solid #626aa0 !important;
+    box-shadow: inset 0 2px 4px rgba(255,255,255,0.6),
+        inset 0 -4px 8px rgba(0,0,0,0.3),
+        0 5px 12px rgba(0,0,0,0.4) !important;
+}
+
+.gamerank_expert {
+    position: relative !important;
+    background: linear-gradient(145deg, #9b7623 0%, #e79f55 45%, #e0af15 100%) !important;
+    border: 1px solid #d8880a !important;
+    box-shadow: inset 0 2px 4px rgb(237 241 141 / 60%), inset 0 -4px 8px rgb(219 31 31 / 30%), 0 5px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+.gamerank_master {
+    position: relative !important;
+    border: 1px solid #a039e5 !important;
+    box-shadow: inset 0 2px 4px rgba(255,255,255,0.65),
+        inset 0 -5px 10px rgba(0,0,0,0.35),
+        0 6px 14px rgba(0,0,0,0.45) !important;
+    background-image: radial-gradient(circle, #102557, #381943, #42112c, #401319, #36180b, #3d1c0b, #44200a, #4a2408, #6c2318, #8e1a33, #ab0c5c, #bb1d92);
+}
+
+.whitespace-pre-wrap {
+    white-space: pre-wrap;
+    color: #fbeded !important;
+    text-shadow: 1px 1px 3px black !important;
+}
+
+.postmessage {
+    color: white !important;
+    text-shadow: 1px 1px 2px black !important;
+}
+
+span.postdate {
+    color: #c497f4 !important;
+}
+
+.comment {
+    background-color: #7f747424 !important;
+    background-image: none !important;
+}
+
+.bga-game-option-arrow.svelte-vyei3q {
+    border-left: 14px solid #9C27B0 !important;
+}
+
+div#page-title {
+    max-width: 100% !important;
+    background: #0000007a !important;
+    color: white !important;
+}
+
+.f7_player_name > div {
+    color: inherit !important;
+    text-shadow: 1px 1px 2px black !important;
+    filter: brightness(3.5) !important;
+}
+
+#topbar {
+    background: linear-gradient(180deg, #372564, #240939) !important;
+    box-shadow: 0 5px 15px 0 #00000087 !important;
+}
+
+.player-board {
+    background-color: hsl(255.48deg 93.93% 27.81% / 55%) !important;
+    color: white !important;
+}
+
+.f7_playerInfo .f7_container {
+    color: #f8f1f1 !important;
+}
+
+.roundedbox {
+    background-color: #0a0942 !important;
+    color: white !important;
+}
+
+/* GŁÓWNY KONTEJNER */
+.roundedbox.player-board.spectator-mode {
+    position: relative !important;
+    background: linear-gradient(145deg, #1e1f24 0%, #18191d 60%, #141519 100%) !important;
+    border: 1px solid #2c2f36 !important;
+    border-radius: 12px !important;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.04),
+        inset 0 -1px 0 rgba(0,0,0,0.6),
+        0 10px 25px rgba(0,0,0,0.55) !important;
+    color: #e6e6e6 !important;
+    overflow: hidden !important;
+}
+
+/* USUWAMY STARE JASNE TŁA */
+.roundedbox.player-board.spectator-mode .roundedbox_topmain,
+.roundedbox.player-board.spectator-mode .roundedbox_bottommain,
+.roundedbox.player-board.spectator-mode .roundedbox_main {
+    background: transparent !important;
+}
+
+/* GÓRNY PASEK */
+.roundedbox.player-board.spectator-mode .roundedbox_topmain {
+    background: linear-gradient(to bottom, #2a2d34, #1c1e23) !important;
+    height: 6px !important;
+}
+
+/* DOLNY PASEK */
+.roundedbox.player-board.spectator-mode .roundedbox_bottommain {
+    background: linear-gradient(to top, #2a2d34, #1c1e23) !important;
+    height: 6px !important;
+}
+
+/* LEWY + PRAWY AKCENT (subtelny neon) */
+.roundedbox.player-board.spectator-mode::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 3px !important;
+    height: 100% !important;
+    background: linear-gradient(to bottom, #4da3ff, #7b61ff) !important;
+    box-shadow: 0 0 10px rgba(100,120,255,0.6) !important;
+}
+
+.roundedbox.player-board.spectator-mode::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 3px !important;
+    height: 100% !important;
+    background: linear-gradient(to bottom, #4da3ff, #7b61ff) !important;
+    box-shadow: 0 0 10px rgba(100,120,255,0.6) !important;
+}
+
+/* TEKST WEWNĄTRZ */
+.roundedbox.player-board.spectator-mode .roundedboxinner {
+    padding: 14px 18px !important;
+    font-size: 14px !important;
+    letter-spacing: 0.3px !important;
+}
+
+/* WYRÓŻNIENIE SŁOWA "widz" */
+.roundedbox.player-board.spectator-mode b {
+    color: #7b9dff !important;
+    font-weight: 600 !important;
+}
+
+
+/* GŁÓWNY BLOK SEKCJI */
+div[id^="pagesection_"] .pagesection {
+    background: linear-gradient(145deg, #1c1e23 0%, #16181c 100%) !important;
+    border: 1px solid #2b2f36 !important;
+    border-radius: 14px !important;
+    padding: 18px 20px !important;
+    margin-bottom: 22px !important;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.04),
+        0 12px 28px rgba(0,0,0,0.55) !important;
+    position: relative !important;
+    overflow: hidden !important;
+	 color: white !important;
+}
+
+/* LEWY AKCENT */
+div[id^="pagesection_"] .pagesection::before {
+    content: "" !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 4px !important;
+    height: 100% !important;
+    background: linear-gradient(to bottom, #5e9cff, #8a5cff) !important;
+    box-shadow: 0 0 12px rgba(120,100,255,0.6) !important;
+}
+
+/* NAGŁÓWKI (h2 + h3) */
+div[id^="pagesection_"] .pagesection h2,
+div[id^="pagesection_"] .pagesection h3 {
+    margin: 0 0 18px 0 !important;
+    padding-bottom: 10px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.4px !important;
+    color: #e8eaf0 !important;
+    border-bottom: 1px solid #2b2f36 !important;
+    position: relative !important;
+    background: #663a96 !important;
+}
+
+/* PODŚWIETLENIE POD NAGŁÓWKIEM */
+div[id^="pagesection_"] .pagesection h2::after,
+div[id^="pagesection_"] .pagesection h3::after {
+    content: "" !important;
+    position: absolute !important;
+    bottom: -1px !important;
+    left: 0 !important;
+    width: 30% !important;
+    height: 2px !important;
+    background: linear-gradient(to right, #f15eff, transparent) !important;
+}
+
+
+/* WIERSZE */
+div[id^="pagesection_"] .row-data {
+    padding: 10px 0 !important;
+    border-bottom: 1px solid rgba(255,255,255,0.04) !important;
+}
+
+div[id^="pagesection_"] .row-data:last-child {
+    border-bottom: none !important;
+}
+
+/* ETYKIETY */
+div[id^="pagesection_"] .row-label {
+    color: #cfd3da !important;
+    font-weight: 500 !important;
+}
+
+/* WARTOŚCI */
+div[id^="pagesection_"] .row-value {
+    color: #9fa6b2 !important;
+}
+
+/* SELECT */
+div[id^="pagesection_"] select.preference_control {
+    background: #282a36 !important;
+    border: 1px solid #2993a0 !important;
+    color: #f8f8f2 !important;
+    box-shadow: 0 0 4px #16779c !important;
+    padding: 5px 35px 5px 10px !important;
+
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='%23f8f8f2'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E") !important;
+
+    background-repeat: no-repeat !important;
+    background-position: right 10px center !important;
+    background-size: 16px !important;
+}
+
+/* HOVER */
+div[id^="pagesection_"] select.preference_control:hover,
+div[id^="pagesection_"] select.preference_control:focus {
+    border-color: #5e9cff !important;
+    box-shadow:
+        0 0 0 2px rgba(94,156,255,0.2),
+        inset 0 1px 2px rgba(0,0,0,0.6) !important;
+    outline: none !important;
+}
+
+.whiteblock {
+    background: #857cd569 !important;
+}
+
+.f7_zoom_btn .f7_zoom_icon path {
+    fill: #a3a2ff  !important; /* Twój kolor, np. różowy */
+}
+
+/* Celujemy w urządzenia o szerokości ekranu mniejszej niż 768px */
+@media screen and (max-width: 768px) {
+    #generalactions {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 10px !important; /* Odstęp między przyciskami */
+    }
+
+    #generalactions .action-button {
+        width: 100% !important;   /* Przyciski zajmą pełną szerokość kontenera */
+        max-width: 300px;         /* Opcjonalnie: ogranicz szerokość, by nie były za długie */
+        margin: 0 !important;      /* Reset marginesów bocznych */
+        text-align: center;
+    }
+}
+
+.bgasmiley,
+.icon12, .icon20  {
+    background-image: url(https://i.ibb.co/7xbmnPnb/icons20.png) !important;
+}
